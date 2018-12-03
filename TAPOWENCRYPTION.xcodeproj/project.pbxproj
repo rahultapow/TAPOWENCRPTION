@@ -8,16 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B14FC5D721B4CD9000559777 /* TAPOWENCRYPTION.h in Headers */ = {isa = PBXBuildFile; fileRef = B14FC5D521B4CD9000559777 /* TAPOWENCRYPTION.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B14FC5DF21B4CDB400559777 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B14FC5DD21B4CDB400559777 /* ViewController.h */; };
-		B14FC5E021B4CDB400559777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B14FC5DE21B4CDB400559777 /* ViewController.m */; };
+		B14FC5EC21B4EF9800559777 /* iKWENTOXXTEA.h in Headers */ = {isa = PBXBuildFile; fileRef = B14FC5EA21B4EF9700559777 /* iKWENTOXXTEA.h */; };
+		B14FC5ED21B4EF9800559777 /* iKWENTOXXTEA.m in Sources */ = {isa = PBXBuildFile; fileRef = B14FC5EB21B4EF9700559777 /* iKWENTOXXTEA.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B14FC5D221B4CD9000559777 /* TAPOWENCRYPTION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAPOWENCRYPTION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14FC5D521B4CD9000559777 /* TAPOWENCRYPTION.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAPOWENCRYPTION.h; sourceTree = "<group>"; };
 		B14FC5D621B4CD9000559777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B14FC5DD21B4CDB400559777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B14FC5DE21B4CDB400559777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B14FC5E221B4EB9900559777 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B14FC5EA21B4EF9700559777 /* iKWENTOXXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKWENTOXXTEA.h; sourceTree = "<group>"; };
+		B14FC5EB21B4EF9700559777 /* iKWENTOXXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKWENTOXXTEA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +37,7 @@
 			children = (
 				B14FC5D421B4CD9000559777 /* TAPOWENCRYPTION */,
 				B14FC5D321B4CD9000559777 /* Products */,
+				B14FC5E121B4EB9900559777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +54,18 @@
 			children = (
 				B14FC5D521B4CD9000559777 /* TAPOWENCRYPTION.h */,
 				B14FC5D621B4CD9000559777 /* Info.plist */,
-				B14FC5DD21B4CDB400559777 /* ViewController.h */,
-				B14FC5DE21B4CDB400559777 /* ViewController.m */,
+				B14FC5EA21B4EF9700559777 /* iKWENTOXXTEA.h */,
+				B14FC5EB21B4EF9700559777 /* iKWENTOXXTEA.m */,
 			);
 			path = TAPOWENCRYPTION;
+			sourceTree = "<group>";
+		};
+		B14FC5E121B4EB9900559777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B14FC5E221B4EB9900559777 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,7 +76,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B14FC5D721B4CD9000559777 /* TAPOWENCRYPTION.h in Headers */,
-				B14FC5DF21B4CDB400559777 /* ViewController.h in Headers */,
+				B14FC5EC21B4EF9800559777 /* iKWENTOXXTEA.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B14FC5E021B4CDB400559777 /* ViewController.m in Sources */,
+				B14FC5ED21B4EF9800559777 /* iKWENTOXXTEA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

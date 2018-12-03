@@ -80,8 +80,8 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # s.source       = { :git => "http://EXAMPLE/TAPOWENCRYPTION.git", :tag => "#{s.version}" }
   s.source       = { :git => "https://github.com/rahultapow/TAPOWENCRPTION.git" }
+  # s.source       = { :git => "https://github.com/rahultapow/TAPOWENCRPTION.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,8 +93,8 @@ Pod::Spec.new do |s|
   #
 
 
-  # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = 'Classes/*.{h,m}'
+  s.source_files  = "Classes", "TAPOWENCRYPTION/*.{h,m}"
+  # s.source_files  = 'Classes/*.{h,m}'
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
