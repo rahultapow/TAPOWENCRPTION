@@ -1,0 +1,6 @@
+framework module TAPOWENCRYPTION {
+  umbrella header "TAPOWENCRYPTION.h"
+
+  export *
+  module * { export * }
+}

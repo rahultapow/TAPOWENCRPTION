@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TAPOWENCRYPTION"
-  s.version      = "0.0.1"
+  s.version      = "0.0.5"
   s.summary      = "A short description of TAPOWENCRYPTION."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/rahultapow/TAPOWENCRPTION.git" }
+  s.source       = { :http => "https://github.com/rahultapow/TAPOWENCRPTION/blob/master/TAPOWENCRYPTION.zip"}
   # s.source       = { :git => "https://github.com/rahultapow/TAPOWENCRPTION.git" }
 
 
@@ -92,11 +92,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-
-  s.source_files  = "Classes", "TAPOWENCRYPTION/*.{h,m}"
+  s.license      = { :type => "MIT", :file => "license" }
+  # s.source_files  = "Classes", "TAPOWENCRYPTION/*.{h,m}"
   # s.source_files  = 'Classes/*.{h,m}'
   s.exclude_files = "Classes/Exclude"
-
+  s.ios.deployment_target = '11.3'
   # s.public_header_files = "Classes/**/*.h"
 
 

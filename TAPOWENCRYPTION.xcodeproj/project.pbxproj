@@ -16,7 +16,6 @@
 		B14FC5D221B4CD9000559777 /* TAPOWENCRYPTION.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAPOWENCRYPTION.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14FC5D521B4CD9000559777 /* TAPOWENCRYPTION.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAPOWENCRYPTION.h; sourceTree = "<group>"; };
 		B14FC5D621B4CD9000559777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B14FC5E221B4EB9900559777 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B14FC5EA21B4EF9700559777 /* iKWENTOXXTEA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iKWENTOXXTEA.h; sourceTree = "<group>"; };
 		B14FC5EB21B4EF9700559777 /* iKWENTOXXTEA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iKWENTOXXTEA.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,7 +36,6 @@
 			children = (
 				B14FC5D421B4CD9000559777 /* TAPOWENCRYPTION */,
 				B14FC5D321B4CD9000559777 /* Products */,
-				B14FC5E121B4EB9900559777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +56,6 @@
 				B14FC5EB21B4EF9700559777 /* iKWENTOXXTEA.m */,
 			);
 			path = TAPOWENCRYPTION;
-			sourceTree = "<group>";
-		};
-		B14FC5E121B4EB9900559777 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B14FC5E221B4EB9900559777 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
